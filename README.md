@@ -222,14 +222,32 @@ In our experience we have found that the most reliable and precise manner of con
 
 As with any mechanical moving system, our belt and pulley solution has backlash. Backlash is the 'free play' in the mechanical setup, in the sense that no mechanical connection is 100% accurate. To illustrate: as we move our lens in one direction a few dozens of steps and next we decide we need to move in the other direction, it will take a determined number of steps before the lens actually starts to move in the opposite direction. This is because there is a little bit of space between the teeth of the pulleys and the belt, because the belt might be a bit loose or any number of reasons. This is not a problem, most of the times. We can simply count the number of steps we need to do before the lens starts moving again and record this number. We'll call this the steps needed to get out of the backlash and we can tell our software to remember that backlash and apply these extra steps each time we change the direction of movement of our lens.
 
-
-
 ### Motor mount
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-132041.jpg" style="zoom:33%;" />
 
+For the stepper motor and bulley and pelt (ok, I know it's pulley and belt) system to correctly fit with the camera, some sort of motor mount is needed. This is actually pretty simple to make.
 
+If you use the GT2 pulley and belt kit, the optimal distance between the pulleys from center to center is 38mm.
+
+For your convenience, there is a [mounting plate design](https://github.com/TitanAstro/3D-Resources/raw/refs/heads/main/Stepper%20Mounting%20plate.step) on our GitHub which you can make from virtually anything: wood, a sheet of plastic, sheet metal or 3D printed.  
 
 ### Servo motor and dome cover
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+A servo motor is another type of positional actuator. Normally servo motors have a range of motion of around 180 degrees. They are usually very lightweight and strong because of the way the internal mechanism is designed. Servos work with a simple PWM (Pulse Width Modulation) signal, which your SkyCamOne HAT provides through the servo connector.
+
+A servo is perfect for a dome cover, in particular for the clamshell type dome covers. The below design is by Wichie Rivera.
+
+<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-121532.jpg" style="zoom:33%;" alt="Beautiful design by Wichie Rivera"/>
+
+
+
+## Additional Resources
+
+* [Titan Astro Github](https://github.com/TitanAstro)
+  * [3D files](https://github.com/TitanAstro/3D-Resources)
+  * [SkyCamOne HAT documentation](https://github.com/TitanAstro/SkyCamOneHAT-Documentation)
+* [Titan Astro on Facebook](https://www.facebook.com/titanastrocom/)
+  * [Titan Astro Facebook Group](https://www.facebook.com/groups/titanastro)
+* [Allsky Camera Group](https://www.facebook.com/groups/172438633343696)
+
