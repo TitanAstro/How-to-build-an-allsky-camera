@@ -1,11 +1,11 @@
 # How to build an allsky camera
 
-## A comprehensive guide
+**A comprehensive guide**
 
 This is a living, breathing document. We will update this document regularly with new information and new insights.
 
 
-### Introduction
+## Introduction
 
 An **all sky camera** is a **specialised device** that records or photographs as much of the **night sky** as possible, from dusk till dawn.
 
@@ -15,7 +15,7 @@ Usually, this type of camera is used for **meteor detection**, for **aurora bore
 
 With this guide, we have tried to make it as **complete and comprehensive** as possible. Hopefully, as a single resource containing **everything you need to know** about building your own DIY all sky camera!
 
-### Requirements
+## Requirements
 
 Generally speaking, an all sky camera should have the following requirements:
 
@@ -25,7 +25,7 @@ Generally speaking, an all sky camera should have the following requirements:
 - it should be weather proof
 - it should be remotely accessible
 
-### Components needed - shopping list
+## Components needed - shopping list
 
 For a complete all sky camera setup that is autonomous and permanently placed outside, you would roughly need the following components:
 
@@ -50,7 +50,7 @@ And lastly, you could use a dome cover to protect your dome and camera from the 
 
 We’ll discuss these components in more detail:
 
-#### Raspberry Pi
+### Raspberry Pi
 
 The Raspberry Pi is a so-called small Single-Board Computer (SBC), the heart of your all sky system. It runs the software and your camera will be connected to it. The Pi will be recording the images from the camera and will take care of creating your time-lapse videos, keograms, startrails and images.
 
@@ -58,7 +58,7 @@ Many people choose the [Raspberry Pi 4B](https://www.raspberrypi.com/products/ra
 
 However, the [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) in combination with a [Titan Astro SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509) will make it possible to use NVMe memory device in the form of an M.2 SSD drive. These drives are fast, very reliable and have large storage capacity. If you require this for your build, the [Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) is the way to go.
 
-#### SkyCamOne HAT
+### SkyCamOne HAT
 
 <img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/01/RPi_HAT_5_Rev.C_2025_v1_2025-Jan-19_10-36-11AM-000_CustomizedView6076636816_png_alpha.png?fit=300%2C169&ssl=1" style="zoom:33%;" />
 
@@ -80,7 +80,7 @@ Using a [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509) 
 
 
 
-#### Camera and lens
+### Camera and lens
 
 <img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/02/Arecont_Vision_mpl1_55_1_55Mm_1_2_F2_0_Fixed_1363711102_872528.jpg?fit=300%2C300&ssl=1" alt="img" style="zoom:33%;" />
 
@@ -100,7 +100,7 @@ Aaron W. Morris, the author of [INDI Allsky](https://github.com/aaronwmorris/ind
 
 
 
-#### Weatherproof housing
+### Weatherproof housing
 
 Your electronics and camera should be **protected from the elements**. That is where the housing comes in.
 
@@ -118,7 +118,7 @@ To connect your waterproof setup via PoE, we can recommend using an [IP68 rated 
 
 
 
-#### Transparent dome
+### Transparent dome
 
 
 
@@ -136,7 +136,7 @@ High end cameras use silicon (glass) domes with an Anti-Reflective (AR) coating 
 
 
 
-#### Dew heater
+### Dew heater
 
 Your camera sits under the **protective acrylic or glass dome**. It **protects your camera** from the elements, from sand and dust in the air, from bird droppings, you name it.
 
@@ -162,7 +162,7 @@ Another advantage of a dew heater is that it will help us **dry up rain drops** 
 
 
 
-#### Power supply
+### Power supply
 
 The next item on your list is some sort of **power supply**. 
 
