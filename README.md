@@ -7,15 +7,13 @@ This is a living, breathing document. We will update this document regularly wit
 
 ### Introduction
 
-An **allsky camera** is a **specialised device** that records or photographs as much of the **night sky** as possible, from dusk till dawn.
+An **all sky camera** is a **specialised device** that records or photographs as much of the **night sky** as possible, from dusk till dawn.
 
 After the night ends, early morning, you will find that your camera has produced a **time-lapse video** of the entire night. Possibly also a **keogram** or a **star trail**.
 
-
-
 Usually, this type of camera is used for **meteor detection**, for **aurora borealis** recording, for recording other **astronomical phenomenae** or just for **personal fun**.
 
-With this guide, we have tried to make it as **complete and comprehensive** as possible. Hopefully, as a single resource containing **everything you need to know** about building your own DIY allsky camera!
+With this guide, we have tried to make it as **complete and comprehensive** as possible. Hopefully, as a single resource containing **everything you need to know** about building your own DIY all sky camera!
 
 ### Requirements
 
@@ -29,7 +27,7 @@ Generally speaking, an all sky camera should have the following requirements:
 
 ### Components needed - shopping list
 
-For a complete allsky camera setup that is autonomous and permanently placed outside, you would roughly need the following components:
+For a complete all sky camera setup that is autonomous and permanently placed outside, you would roughly need the following components:
 
 - A Raspberry [Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) or [Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
 - [a SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509)
@@ -54,7 +52,7 @@ We’ll discuss these components in more detail:
 
 #### Raspberry Pi
 
-The Raspberry Pi is a so-called small Single-Board Computer (SBC), the heart of your allsky system. It runs the software and your camera will be connected to it. The Pi will be recording the images from the camera and will take care of creating your time-lapse videos, keograms, startrails and images.
+The Raspberry Pi is a so-called small Single-Board Computer (SBC), the heart of your all sky system. It runs the software and your camera will be connected to it. The Pi will be recording the images from the camera and will take care of creating your time-lapse videos, keograms, startrails and images.
 
 Many people choose the [Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) since it is a very dependable mini-computer with a relatively low power consumption.
 
@@ -64,15 +62,15 @@ However, the [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-
 
 <img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/01/RPi_HAT_5_Rev.C_2025_v1_2025-Jan-19_10-36-11AM-000_CustomizedView6076636816_png_alpha.png?fit=300%2C169&ssl=1" style="zoom:33%;" />
 
-HAT stands for **Hardware Attached on Top** and in this case it refers to the fact that the [SkyCamOne cards](https://titanastro.com/store/SkyCamOne-HATs-c173503509) attach on top of a Raspberry Pi 4B or 5 like in the adjecent picture.
+HAT stands for **Hardware Attached on Top** and in this case it refers to the fact that the [SkyCamOne cards](https://titanastro.com/store/SkyCamOne-HATs-c173503509) attach on top of a Raspberry Pi 4B or 5 like in the adjacent picture.
 
-The SkyCamOne HATs work as an **extra layer of hardware** to the Raspberry Pi, enabling the Raspberry Pi to **host a list of features** that we **commonly use** in allsky camera builds.
+The SkyCamOne HATs work as an **extra layer of hardware** to the Raspberry Pi, enabling the Raspberry Pi to **host a list of features** that we **commonly use** in all sky camera builds.
 
 One important feature is the **power supply** circuit of the [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509). It simplifies powering the camera and different internal systems. One can power the complete camera with **just a network cable** or a **single 12 volt** cable going into the housing.
 
 Another feature is the interface for **two stepper motors**. Stepper motors can be used to aid in **focusing** the camera or changing the **height** of our camera within the dome.
 
-It also provides an interface for a **servo motor**, the same ones used in model cars and aeroplanes, which we could use to activate a dome cover for instance.
+It also provides an interface for a **servo motor**, the same ones used in model cars and airplanes, which we could use to activate a dome cover for instance.
 
 Furthermore, the [SkyCamOne HATs](https://titanastro.com/store/SkyCamOne-HATs-c173503509) have interfaces for **I2C sensors**, a **fan controller** for active cooling, a **dew heater** output and in case of the HAT for Raspberry Pi 5 an **SSD slot** for storage memory.
 
@@ -88,9 +86,9 @@ Using a [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509) 
 
 This one is a tricky combination. Depending on which camera you choose, you choose your lens. Not all cameras work well with all lenses and vice versa. 
 
-You will also want a near horizon-to-horizon field of view for your allsky camera, and a wide angle lens just does not give the same result with a small camera sensor size as it does with a large sensor size.
+You will also want a near horizon-to-horizon field of view for your all sky camera, and a wide angle lens just does not give the same result with a small camera sensor size as it does with a large sensor size.
 
-A commonly used lens is the 1.55mm f2 CS mount fisheye lens. With a 1/2″ camera sensor this lens will provide a full view of the sky with a complete image circle. However, with a 1/3″ sensor you will have an image that will be slightly clipped on the top and bottom.
+A commonly used lens is the [1.55mm f2 CS mount fisheye lens](https://titanastro.com/store/1-2-1-55mm-F2-0-IR-CS-mount-fisheye-lens-185-degree-FoV-p728243754). With a 1/2″ camera sensor this lens will provide a full view of the sky with a complete image circle. However, with a 1/3″ sensor you will have an image that will be slightly clipped on the top and bottom.
 
 Commonly used cameras are the [Raspberry Pi HQ](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/) camera, [ZWO planetary cameras](https://www.zwoastro.com/product-category/cameras/planetary_cameras/) or [QHY cameras](https://www.qhyccd.com/planetary-camera-qhy5iii485c/).
 
@@ -106,9 +104,9 @@ Aaron W. Morris, the author of [INDI Allsky](https://github.com/aaronwmorris/ind
 
 Your electronics and camera should be **protected from the elements**. That is where the housing comes in.
 
-Some allsky camera designs are based on a **fully closed system**. No moisture in or out, no air in or out. We believe this to be **wrong**. And we’ll try and explain why we think that.
+Some all sky camera designs are based on a **fully closed system**. No moisture in or out, no air in or out. We believe this to be **wrong**. And we’ll try and explain why we think that.
 
-In some environments, the **temperature** within an allsky housing during the day can **vary greatly**. From temperatures below zero degrees Celsius (32 degrees Fahrenheit) at nighttime to temperatures of over 50 degrees Celsius (122 degrees Fahrenheit) at daytime. 
+In some environments, the **temperature** within an all sky housing during the day can **vary greatly**. From temperatures below zero degrees Celsius (32 degrees Fahrenheit) at nighttime to temperatures of over 50 degrees Celsius (122 degrees Fahrenheit) at daytime. 
 
 In fully closed housings, this creates **significant pressure differences**, which will eventually **end up breaking seals**. It will also affect how your environment sensor reacts and **incorrectly reads** your environmental situation.
 
@@ -204,13 +202,25 @@ Since we would like to know the value of I, can say that *I = 25 / 12 = 2.08* Am
 
 ### Environment sensor and cable
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+<img src="https://d2j6dbq0eux0bg.cloudfront.net/images/100555537/4744540326.png" style="zoom: 25%;" />
+
+In order for your all sky system to know what the environment is doing as far as temperature and humidity go, we need some sort of sensor. With the SkyCamOne HATs you can use any type of I2C sensor. A very reliable sensor that is protected from the adverse effects of moisture, is the [SHT31-D](https://titanastro.com/store/Temphum-sensor-SHT31D-I2C-QWIIC-p692557720). This sensor measures temperature and humidity with a very high precision and even has a built-in heater!
+
+Other sensors that work well are the BME280 or BME680.
+
+Most of these sensors nowadays use a standard cable called a [QWIIC-cable](https://titanastro.com/store/QWIIC-I2C-Sensor-connection-Cable-p692223382). These are used by many sensor manufacturers including SparkFun and AdaFruit, but they are also the standard cable used by the SkyCamOne HATs.
 
 
 
 ### Stepper motor and belt and pulley set
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+If you are planning on building a system which enables you to remotely focus your camera or even use some sort of autofocus solution, you will need a way to turn your lens (that's how you focus, by turning your lens and actually screwing it further in or further out).
+
+A very reliable way of doing this is with the help of a [stepper motor](https://titanastro.com/store/28BYJ48-5V-Stepper-motor-p692220361). A stepper motor is not a regular electric motor, but a motor which moves in predefined small steps. The great advantage is that we can count the steps in one direction and return to our starting position by executing the same amount of steps in the opposite direction. 
+
+In our experience we have found that the most reliable and precise manner of connecting this stepper motor to your lens is with a [belt and pulleys](https://titanastro.com/store/GT2-Focus-Kit-Pulleys-and-belt-p696697425). This further reduces the steps of the stepper motor for additional precision, is easy to install and durable.
+
+As with any mechanical moving system, our belt and pulley solution has backlash. Backlash is the 'free play' in the mechanical setup, in the sense that no mechanical connection is 100% accurate. To illustrate: as we move our lens in one direction a few dozens of steps and next we decide we need to move in the other direction, it will take a determined number of steps before the lens actually starts to move in the opposite direction. This is because there is a little bit of space between the teeth of the pulleys and the belt, because the belt might be a bit loose or any number of reasons. This is not a problem, most of the times. We can simply count the number of steps we need to do before the lens starts moving again and record this number. We'll call this the steps needed to get out of the backlash and we can tell our software to remember that backlash and apply these extra steps each time we change the direction of movement of our lens.
 
 
 
