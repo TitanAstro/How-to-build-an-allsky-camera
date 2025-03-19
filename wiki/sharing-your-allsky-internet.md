@@ -1,7 +1,7 @@
 # Exposing Your INDI-AllSky and TJ AllSky Images Online: A Step-by-Step Guide
 
 **Introduction**  
-Astrophotographers using all-sky camera software like **INDI-AllSky** and **Thomas Jacquin's AllSky (TJ AllSky)** often want to share their latest night sky images and timelapses with the world. The good news is both systems support web interfaces or data uploads that can be accessible over the internet. The challenge is doing so in a secure, reliable way. In this tutorial, we'll outline how to expose your all-sky camera's content online using **self-hosted solutions** (avoiding third-party image hosting), highlight **best practices** (like mirroring data to a safe location and using secure tunnels), and cover **common challenges** you might face along the way. By the end, you'll have a clear roadmap to set up external access to your AllSky system, plus a handy FAQ to troubleshoot issues.
+Astrophotographers using all-sky camera software like **INDI-AllSky** and **Thomas Jacquin's AllSky (TJ AllSky)** often want to share their latest night sky images and timelapses with the world. The good news is both systems support built-in web interfaces and data uploads capabilities to mirror your allsky images accessible over the internet. The challenge is doing so in a secure, reliable way. In this guide, we'll outline how to expose your all-sky camera's content online using **self-hosted solutions**, highlight **best practices** (like mirroring data to a safe location and using secure tunnels), and cover **common challenges** you might face along the way. By the end, you'll have a clear roadmap to set up external access to your AllSky system, plus a handy FAQ to troubleshoot issues.
 
 ## Table of Contents
 1. [Self-Hosted Solutions (Direct Exposure to the Internet)](#1-self-hosted-solutions-direct-exposure-to-the-internet)
@@ -29,8 +29,8 @@ Once you have local web access working, you're ready to expose it externally.
 ### 1.2 Setting Up Port Forwarding on Your Router  
 For others to reach your AllSky web interface, you need to allow traffic from the internet into your local network. This usually means **port forwarding** on your router:  
 
-1. **Find your AllSky device's local IP and port:** e.g., Raspberry Pi might be `192.168.1.100`. The web interface port is typically 80 or 443 for TJ AllSky's web (80 for HTTP, 443 for HTTPS), or a specific port for INDI-AllSky (it often uses 443 with a self-signed cert by default). You can adjust INDI-AllSky's config to use standard ports if needed.  
-2. **Log in to your router** (usually via a web admin page) and locate the Port Forwarding section. Add a rule to forward an external port (e.g. 80 for HTTP) to the internal IP and port of your AllSky device ([Unable to see online the AllSky camera · Issue #1302 · AllskyTeam/allsky · GitHub](https://github.com/thomasjacquin/allsky/issues/1302#:~:text=%40CarlosTapiaAyuga%20is%20your%20Allsky%20Website,The%20Wiki%20describes%20this)). For example, forward `TCP 80` on the router to `192.168.1.100:80`. If you plan to use HTTPS, also forward `TCP 443`. (You could choose a different external port number for security by obscurity, but using 80/443 is simplest for users).  
+1. **Find your AllSky device's local IP and port:** e.g., Raspberry Pi might be `192.168.1.100`. The web interface port is typically 80 or 443 for TJ AllSky's web (80 for HTTP, 443 for HTTPS), or a specific port for INDI-AllSky (it often uses 443 with a self-signed cert by default). 
+2. **Log in to your router** (usually via a web admin page) and locate the Port Forwarding section. Add a rule to forward an external port (e.g. 80 for HTTP) to the internal IP and port of your AllSky device ([Unable to see online the AllSky camera · Issue #1302 · AllskyTeam/allsky · GitHub](https://github.com/thomasjacquin/allsky/issues/1302#:~:text=%40CarlosTapiaAyuga%20is%20your%20Allsky%20Website,The%20Wiki%20describes%20this)). For example, forward `TCP 80` on the router to `192.168.1.100:80`. If you plan to use HTTPS, also forward `TCP 443` to `192.168.1.100:443`. (You could choose a different external port number for security by obscurity, but using 80/443 is simplest for users).  
 3. **Give your device a static IP (or DHCP reservation):** This ensures the Pi's IP (e.g. 192.168.1.100) doesn't change over time, which would break the port forward. Set this in your router's DHCP settings or on the Pi itself.  
 4. **Test internally:** While still on local network, try accessing your public IP (which you can find on a site like whatismyip.com) with the forwarded port from a device. Some routers may not support loopback, so this test might fail internally; an alternative is to use a phone on cellular data to test the public IP.
 
@@ -154,6 +154,12 @@ By anticipating these challenges, you can save yourself a lot of frustration. Ne
 
 **Q: Do I need a static IP address?**  
 A: No, you can use Dynamic DNS services.
+
+**Q: Why do I get SSL certificate errors even when accessing from my home network?**  
+A: This happens because INDI-AllSky uses HTTPS by default with a self-signed certificate. Your browser warns you about self-signed certificates because they aren't verified by a trusted authority. This is normal and you can safely proceed (add an exception in your browser) when accessing locally. If you want to avoid these warnings, you can either:
+1. Install a proper SSL certificate (like Let's Encrypt)
+2. Disable HTTPS (though not recommended)
+3. Add your self-signed certificate to your devices' trust stores
 
 **Q: Is it safe to expose my camera to the internet?**  
 A: With proper security measures, yes. We recommend using Cloudflare Tunnel or VPN access.
