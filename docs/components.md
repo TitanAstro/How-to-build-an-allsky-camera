@@ -1,4 +1,4 @@
-### Raspberry Pi
+### Raspberry Pi <a name="raspberrypi"></a>
 
 The Raspberry Pi is a so-called small Single-Board Computer (SBC), the heart of your all sky system. It runs the software and your camera will be connected to it. The Pi will be recording the images from the camera and will take care of creating your time-lapse videos, keograms, startrails and images.
 
@@ -6,7 +6,7 @@ Many people choose the [Raspberry Pi 4B](https://www.raspberrypi.com/products/ra
 
 However, the [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) in combination with a [Titan Astro SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509) will make it possible to use NVMe memory device in the form of an M.2 SSD drive. These drives are fast, very reliable and have large storage capacity. If you require this for your build, the [Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) is the way to go.
 
-### SkyCamOne HAT
+### SkyCamOne HAT<a name="skycamone"></a>
 
 <img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/01/RPi_HAT_5_Rev.C_2025_v1_2025-Jan-19_10-36-11AM-000_CustomizedView6076636816_png_alpha.png?fit=300%2C169&ssl=1" style="zoom:33%;" />
 
@@ -24,7 +24,7 @@ Furthermore, the [SkyCamOne HATs](https://titanastro.com/store/SkyCamOne-HATs-c1
 
 Using a [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509) **takes away the necessity to create custom electronic circuits**, having to debug and having to reinvent the wheel. You can directly connect your stepper motor, servo, sensors and dew heater **without** the need for **additional electronics**.
 
-### Camera and lens
+### Camera and lens<a name="camera"></a>
 
 <img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/02/Arecont_Vision_mpl1_55_1_55Mm_1_2_F2_0_Fixed_1363711102_872528.jpg?fit=300%2C300&ssl=1" alt="img" style="zoom:33%;" />
 
@@ -40,7 +40,7 @@ Commonly used cameras are the [Raspberry Pi HQ](https://www.raspberrypi.com/prod
 
 Aaron W. Morris, the author of [INDI Allsky](https://github.com/aaronwmorris/indi-allsky), has a [camera simulator](https://allsky.aarmor.net/indi-allsky/camerasimulator) built within INDI Allsky that helps you appreciate how any lens combines with different types of sensors.
 
-### Weatherproof housing
+### Weatherproof housing<a name="housing"></a>
 
 Your electronics and camera should be **protected from the elements**. That is where the housing comes in.
 
@@ -57,7 +57,7 @@ If we **open up** our enclosure to the outside environment in a **controlled man
 To connect your waterproof setup via PoE, we can recommend using an [IP68 rated ethernet panel connector](https://titanastro.com/store/IP68-CAT6-Waterproof-Panel-Connector-p728229377).
 
 
-### Transparent dome
+### Transparent dome<a name="dome"></a>
 
 
 
@@ -74,7 +74,7 @@ High end cameras use silicon (glass) domes with an Anti-Reflective (AR) coating 
 
 
 
-### Power supply
+### Power supply<a name="powersupply"></a>
 
 The next item on your list is some sort of **power supply**. 
 
@@ -111,7 +111,7 @@ $$
 Since we would like to know the value of I, can say that *I = 25 / 12 = 2.08* Amperes. So your 12 Volt power supply needs to be able to deliver at least 2.1 Amperes. Just so you know.
 
 
-### Dew heater
+### Dew heater<a name="dewheater"></a>
 
 Your camera sits under the **protective acrylic or glass dome**. It **protects your camera** from the elements, from sand and dust in the air, from bird droppings, you name it.
 
@@ -133,7 +133,7 @@ We can place a so called **dew heater inside our dome**. A dew heater is general
 
 Another advantage of a dew heater is that it will help us **dry up rain drops** faster and will also help **melt snow** or hail that has fallen on our dome and obstructs our view.
 
- ### Environment sensor and cable
+### Environment sensor and cable<a name="environmentsensor"></a>
 
 <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/100555537/4744540326.png" style="zoom: 25%;" />
 
@@ -143,7 +143,7 @@ Other sensors that work well are the BME280 or BME680.
 
 Most of these sensors nowadays use a standard cable called a [QWIIC-cable](https://titanastro.com/store/QWIIC-I2C-Sensor-connection-Cable-p692223382). These are used by many sensor manufacturers including SparkFun and AdaFruit, but they are also the standard cable used by the SkyCamOne HATs.
 
-### Stepper motor and belt and pulley set
+### Stepper motor and belt and pulley set<a name="steppermotor"></a>
 
 If you are planning on building a system which enables you to remotely focus your camera or even use some sort of autofocus solution, you will need a way to turn your lens (that's how you focus, by turning your lens and actually screwing it further in or further out).
 
@@ -152,7 +152,8 @@ A very reliable way of doing this is with the help of a [stepper motor](https://
 In our experience we have found that the most reliable and precise manner of connecting this stepper motor to your lens is with a [belt and pulleys](https://titanastro.com/store/GT2-Focus-Kit-Pulleys-and-belt-p696697425). This further reduces the steps of the stepper motor for additional precision, is easy to install and durable.
 
 As with any mechanical moving system, our belt and pulley solution has backlash. Backlash is the 'free play' in the mechanical setup, in the sense that no mechanical connection is 100% accurate. To illustrate: as we move our lens in one direction a few dozens of steps and next we decide we need to move in the other direction, it will take a determined number of steps before the lens actually starts to move in the opposite direction. This is because there is a little bit of space between the teeth of the pulleys and the belt, because the belt might be a bit loose or any number of reasons. This is not a problem, most of the times. We can simply count the number of steps we need to do before the lens starts moving again and record this number. We'll call this the steps needed to get out of the backlash and we can tell our software to remember that backlash and apply these extra steps each time we change the direction of movement of our lens.
-### Motor mount
+
+### Motor mount<a name="motormount"></a>
 
 <img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-132041.jpg" style="zoom:33%;" />
 
@@ -161,7 +162,8 @@ For the stepper motor and bulley and pelt (ok, I know it's pulley and belt) syst
 If you use the GT2 pulley and belt kit, the optimal distance between the pulleys from center to center is 38mm.
 
 For your convenience, there is a [mounting plate design](https://github.com/TitanAstro/3D-Resources/raw/refs/heads/main/Stepper%20Mounting%20plate.step) on our GitHub which you can make from virtually anything: wood, a sheet of plastic, sheet metal or 3D printed.  This mounting plate is designed to fit around a ZWO camera (51mm diameter) and the [**28BYJ48** stepper motor](https://titanastro.com/store/28BYJ48-5V-Stepper-motor-p692220361).
-### Servo motor and dome cover
+
+### Servo motor and dome cover<a name="servomotor"></a>
 
 A servo motor is another type of positional actuator. Normally servo motors have a range of motion of around 180 degrees. They are usually very lightweight and strong because of the way the internal mechanism is designed. Servos work with a simple PWM (Pulse Width Modulation) signal, which your SkyCamOne HAT provides through the servo connector.
 
