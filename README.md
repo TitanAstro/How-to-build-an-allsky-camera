@@ -11,9 +11,25 @@ This is a living, breathing document. We will update this document regularly wit
     * [Requirements](docs/Introduction.md#requirements): What you want
     * [Shopping list](docs/Introduction.md#shoppinglist): What you need
 * **In detail**
-    * [Raspberry Pi](docs/component_raspberrypi.md): The heart of your all sky setup
-    * [SkyCamOne HAT](docs/component_skycamone.md): The main electronic interface that makes your life easy
+    * [Raspberry Pi](docs/components.md#raspberrypi): The heart of your all sky setup
+    * [SkyCamOne HAT](docs/components.md#skycamone): The main electronic interface that makes your life easy
+    * [Camera and Lens](docs/components.md#camera): The imaging device and optics
+    * [Weatherproof Housing](docs/components.md#housing): The housing for your setup
+    * [Dome](docs/components.md#dome): The window to the sky
+    * [Power Supply](docs/components.md#powersupply) Juice, anyone?
+    * [Dew Heater](docs/components.md#dewheater) Keeping moisture out
+    * [Environment Sensor](docs/components.md#environmentsensor) 'Feeling' the air
+    * [Stepper motor and belt/pulleys](docs/components.md#steppermotor) Moving your lens for focus
+    * [Motor Mount](docs/components.md#motormount) Fix the motor somehow
+    * [Servo Motor](docs/components.md#servomotor) Move something else
+    * 
 * **Extra resources**   
+* [Titan Astro Github](https://github.com/TitanAstro)
+  * [3D files](https://github.com/TitanAstro/3D-Resources)
+  * [SkyCamOne HAT documentation](https://github.com/TitanAstro/SkyCamOneHAT-Documentation)
+* [Titan Astro on Facebook](https://www.facebook.com/titanastrocom/)
+  * [Titan Astro Facebook Group](https://www.facebook.com/groups/titanastro)
+* [Allsky Camera Group](https://www.facebook.com/groups/172438633343696)
 
 <br/>
 <br/>
