@@ -15,3 +15,7 @@ After the night ends, early morning, you will find that your camera has produced
 Usually, this type of camera is used for **meteor detection**, for **aurora borealis** recording, for recording other **astronomical phenomenae** or just for **personal fun**.
 
 With this guide, we have tried to make it as **complete and comprehensive** as possible. Hopefully, as a single resource containing **everything you need to know** about building your own DIY all sky camera!
+<br/>
+<br/>
+<IMG SRC="https://i0.wp.com/titanastro.com/wp-content/uploads/2018/10/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
+www.titanastro.com
