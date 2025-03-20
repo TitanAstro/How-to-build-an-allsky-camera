@@ -7,9 +7,9 @@ This is a living, breathing document. We will update this document regularly wit
 ## Table of Contents
 
 * **Start here**
-    * [Introduction](docs/Introduction.md): Introduction to all sky cameras
-    * [Requirements](docs/requirements.md): What you want
-    * [Shopping list](docs/shoppinglist.md): What you need
+    * [Introduction](docs/Introduction.md#introduction): Introduction to all sky cameras
+    * [Requirements](docs/Introduction.md#requirements): What you want
+    * [Shopping list](docs/Introduction.md#shoppinglist): What you need
 * **In detail**
     * [Raspberry Pi](docs/component_raspberrypi.md): The heart of your all sky setup
     * [SkyCamOne HAT](docs/component_skycamone.md): The main electronic interface that makes your life easy
