@@ -6,7 +6,7 @@ This is a living, breathing document. We will update this Wiki regularly with ne
 
 <IMG SRC="https://i0.wp.com/titanastro.com/wp-content/uploads/2018/10/Titan-Astro-color-logo-R-white-2025-1.png" width="300" alt="Titan Astro S.L.">
 
-## Introduction {#introduction}
+## Introduction <a name="introduction"></a>
 
 An **all sky camera** is a **specialised device** that records or photographs as much of the **night sky** as possible, from dusk till dawn.
 
@@ -16,7 +16,7 @@ Usually, this type of camera is used for **meteor detection**, for **aurora bore
 
 With this guide, we have tried to make it as **complete and comprehensive** as possible. Hopefully, as a single resource containing **everything you need to know** about building your own DIY all sky camera!
 
-## Requirements {#requirements}
+## Requirements <a name="requirements"></a>
 
 Generally speaking, an all sky camera should have the following requirements:
 
@@ -26,7 +26,7 @@ Generally speaking, an all sky camera should have the following requirements:
 - it should be weather proof
 - it should be remotely accessible
 
-## Components needed - shopping list {#shoppinglist}
+## Components needed - shopping list <a name="shoppinglist"></a>
 
 For a complete all sky camera setup that is autonomous and permanently placed outside, you would roughly need the following components:
 
