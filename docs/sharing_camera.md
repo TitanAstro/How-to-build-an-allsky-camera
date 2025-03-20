@@ -171,5 +171,5 @@ A: With proper security measures, yes. We recommend using Cloudflare Tunnel or V
 A: For beginners, mirroring to a web host is simplest. For more control, Cloudflare Tunnel provides a good balance of security and ease of use.
 
 ---
-*This guide is part of the How-to-build-an-allsky-camera project. For more information, visit our [main documentation](Home).*
+*This guide is part of the How-to-build-an-allsky-camera project. For more information, visit our [main documentation](/).*
 
