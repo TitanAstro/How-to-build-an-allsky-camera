@@ -1,7 +1,7 @@
 # Exposing Your INDI-AllSky and TJ AllSky Images Online: A Step-by-Step Guide
-Contributed by Ken Hall - thanks Ken!
+<a name="introduction"></a>Contributed by Ken Hall - thanks Ken!
 
-**Introduction**  <a name="introduction"></a>
+**Introduction**  
 Astrophotographers using all-sky camera software like **INDI-AllSky** ([https://github.com/aaronwmorris/indi-allsky](https://github.com/aaronwmorris/indi-allsky)) and **AllSkyTeam's Allsky (TJ's)** ([https://github.com/AllskyTeam/allsky](https://github.com/AllskyTeam/allsky)) often want to share their latest night sky images and timelapses with the world. The good news is both systems support built-in web interfaces and data uploads capabilities to mirror your allsky images accessible over the internet. The challenge is doing so in a secure, reliable way. In this guide, we'll outline how to expose your all-sky camera's content online using **self-hosted solutions**, highlight **best practices** (like mirroring data to a safe location and using secure tunnels), and cover **common challenges** you might face along the way. By the end, you'll have a clear roadmap to set up external access to your AllSky system, plus a handy FAQ to troubleshoot issues.
 
 ## Table of Contents
