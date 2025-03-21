@@ -1,3 +1,4 @@
+
 ### Raspberry Pi<a name="raspberrypi"></a>
 
 The Raspberry Pi is a so-called small Single-Board Computer (SBC), the heart of your all sky system. It runs the software and your camera will be connected to it. The Pi will be recording the images from the camera and will take care of creating your time-lapse videos, keograms, startrails and images.
@@ -8,13 +9,13 @@ However, the [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-
 
 ### SkyCamOne HAT<a name="skycamone"></a>
 
-<img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/01/RPi_HAT_5_Rev.C_2025_v1_2025-Jan-19_10-36-11AM-000_CustomizedView6076636816_png_alpha.png?fit=300%2C169&ssl=1" style="zoom:33%;" />
+<img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/01/RPi_HAT_5_Rev.C_2025_v1_2025-Jan-19_10-36-11AM-000_CustomizedView6076636816_png_alpha.png" width="250" align="right"/>
 
 HAT stands for **Hardware Attached on Top** and in this case it refers to the fact that the [SkyCamOne cards](https://titanastro.com/store/SkyCamOne-HATs-c173503509) attach on top of a Raspberry Pi 4B or 5 like in the adjacent picture.
 
 The SkyCamOne HATs work as an **extra layer of hardware** to the Raspberry Pi, enabling the Raspberry Pi to **host a list of features** that we **commonly use** in all sky camera builds.
 
-One important feature is the **power supply** circuit of the [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509). It simplifies powering the camera and different internal systems. One can power the complete camera with **just a network cable** or a **single 12 volt** cable going into the housing.
+One important feature is the **power supply** circuit of the [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509). It simplifies powering the camera and different internal systems. One can power the complete camera with **just a network cable** or a **single 12 volt** cable going into the housing.v
 
 Another feature is the interface for **two stepper motors**. Stepper motors can be used to aid in **focusing** the camera or changing the **height** of our camera within the dome.
 
@@ -26,7 +27,7 @@ Using a [SkyCamOne HAT](https://titanastro.com/store/SkyCamOne-HATs-c173503509) 
 
 ### Camera and lens<a name="camera"></a>
 
-<img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/02/Arecont_Vision_mpl1_55_1_55Mm_1_2_F2_0_Fixed_1363711102_872528.jpg?fit=300%2C300&ssl=1" alt="img" style="zoom:33%;" />
+<img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/02/Arecont_Vision_mpl1_55_1_55Mm_1_2_F2_0_Fixed_1363711102_872528.jpg" alt="1.55mm all sky lens" width="250" align="right" />
 
 This one is a tricky combination. Depending on which camera you choose, you choose your lens. Not all cameras work well with all lenses and vice versa. 
 
@@ -59,19 +60,15 @@ To connect your waterproof setup via PoE, we can recommend using an [IP68 rated 
 
 ### Transparent dome<a name="dome"></a>
 
-
-
 To protect your camera from the elements but still provide good visibility with a minimum of distortion, we use transparent domes.
 
 Usually, the type of dome you see on your local supermarket ceiling, with a CCTV camera in it. 
 
 In most cases, a 3″ or [4″ diameter dome](https://titanastro.com/store/Dome-4-diameter-CCTV-clear-acrylic-p698624616) is used. The lens of your camera should be placed just **above** the **center** of your dome to minimize optical distortions from the extrusion of the acrylic.
 
-<img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/02/Lens-placement.webp?fit=1024%2C477&ssl=1" alt="img" style="zoom:33%;" />
+<img src="https://i0.wp.com/titanastro.com/wp-content/uploads/2025/02/Lens-placement.webp" alt="Lens placement" width="250" />
 
 High end cameras use silicon (glass) domes with an Anti-Reflective (AR) coating on the inside. These are costly and because most do not have a flange they are harder to mount and keep sealed.
-
-
 
 
 ### Power supply<a name="powersupply"></a>
@@ -135,7 +132,7 @@ Another advantage of a dew heater is that it will help us **dry up rain drops** 
 
 ### Environment sensor and cable<a name="environmentsensor"></a>
 
-<img src="https://d2j6dbq0eux0bg.cloudfront.net/images/100555537/4744540326.png" style="zoom:25%;" />
+<img src="https://d2j6dbq0eux0bg.cloudfront.net/images/100555537/4744540326.png" width="250" />
 
 In order for your all sky system to know what the environment is doing as far as temperature and humidity go, we need some sort of sensor. With the SkyCamOne HATs you can use any type of I2C sensor. A very reliable sensor that is protected from the adverse effects of moisture, is the [SHT31-D](https://titanastro.com/store/Temphum-sensor-SHT31D-I2C-QWIIC-p692557720). This sensor measures temperature and humidity with a very high precision and even has a built-in heater!
 
