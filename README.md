@@ -1,8 +1,9 @@
-# How to build an allsky camera
+# How to build an allsky camera<IMG SRC="docs/images/Titan_Astro_SkyCam_ONE_v.5_2025-Mar-21_09-34-19AM-000_CustomizedView17561293188_png_alpha.png" Alt="Titan Astro S.L." width="400px" align="right"><br/>
 
 **A comprehensive guide**  
-<IMG SRC="docs/images/Titan_Astro_SkyCam_ONE_v.5_2025-Mar-21_09-34-19AM-000_CustomizedView17561293188_png_alpha.png" Alt="Titan Astro S.L." width="400px" align="right"><br/>
+
 This is a living, breathing document. We will update this document regularly with new information and new insights.
+If you wish to contribute, we applaud you and please feel free to do so. You could start by reading [CONTRIBUTING.md](CONTRIBUTING.md) to get oriented.
 
 ## Table of Contents
 
@@ -29,12 +30,12 @@ This is a living, breathing document. We will update this document regularly wit
     * [Common Challenges and How to Solve Them](/docs/sharing_camera.md#3-common-challenges-and-how-to-solve-them)
     * [Frequently Asked Questions (FAQ)](/docs/sharing_camera.md#frequently-asked-questions-faq)
 * **Extra resources**   
-* [Titan Astro Github](https://github.com/TitanAstro)
-  * [3D files](https://github.com/TitanAstro/3D-Resources)
-  * [SkyCamOne HAT documentation](https://github.com/TitanAstro/SkyCamOneHAT-Documentation)
-* [Titan Astro on Facebook](https://www.facebook.com/titanastrocom/)
-  * [Titan Astro Facebook Group](https://www.facebook.com/groups/titanastro)
-* [Allsky Camera Group](https://www.facebook.com/groups/172438633343696)
+  * [Titan Astro Github](https://github.com/TitanAstro)
+    * [3D files](https://github.com/TitanAstro/3D-Resources)
+    * [SkyCamOne HAT documentation](https://github.com/TitanAstro/SkyCamOneHAT-Documentation)
+  * [Titan Astro on Facebook](https://www.facebook.com/titanastrocom/)
+    * [Titan Astro Facebook Group](https://www.facebook.com/groups/titanastro)
+  * [Allsky Camera Group](https://www.facebook.com/groups/172438633343696)
 
 <br/>
 <br/>

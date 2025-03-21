@@ -135,7 +135,7 @@ Another advantage of a dew heater is that it will help us **dry up rain drops** 
 
 ### Environment sensor and cable<a name="environmentsensor"></a>
 
-<img src="https://d2j6dbq0eux0bg.cloudfront.net/images/100555537/4744540326.png" style="zoom: 25%;" />
+<img src="https://d2j6dbq0eux0bg.cloudfront.net/images/100555537/4744540326.png" style="zoom:25%;" />
 
 In order for your all sky system to know what the environment is doing as far as temperature and humidity go, we need some sort of sensor. With the SkyCamOne HATs you can use any type of I2C sensor. A very reliable sensor that is protected from the adverse effects of moisture, is the [SHT31-D](https://titanastro.com/store/Temphum-sensor-SHT31D-I2C-QWIIC-p692557720). This sensor measures temperature and humidity with a very high precision and even has a built-in heater!
 
@@ -155,7 +155,7 @@ As with any mechanical moving system, our belt and pulley solution has backlash.
 
 ### Motor mount<a name="motormount"></a>
 
-<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-132041.jpg" style="zoom:33%;" />
+<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-132041.jpg" style="zoom:25%;" />
 
 For the stepper motor and bulley and pelt (ok, I know it's pulley and belt) system to correctly fit with the camera, some sort of motor mount is needed. This is actually pretty simple to make.
 
@@ -172,8 +172,7 @@ A servo is perfect for a dome cover, in particular for the clamshell type dome c
 <img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-121532.jpg" style="zoom:33%;" alt="Beautiful design by Wichie Rivera"/>
 
 
-
-
-
-
-
+<br/>
+<br/>
+<IMG SRC="https://i0.wp.com/titanastro.com/wp-content/uploads/2018/10/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
+www.titanastro.com
