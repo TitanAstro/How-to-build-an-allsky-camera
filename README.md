@@ -1,7 +1,7 @@
 # How to build an allsky camera
 
 **A comprehensive guide**  
-
+<IMG SRC="docs/images/Titan_Astro_SkyCam_ONE_v.5_2025-Mar-21_09-34-19AM-000_CustomizedView17561293188_png_alpha.png" Alt="Titan Astro S.L." width="400px" align="right"><br/>
 This is a living, breathing document. We will update this document regularly with new information and new insights.
 
 ## Table of Contents
