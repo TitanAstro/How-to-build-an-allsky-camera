@@ -49,9 +49,9 @@ And lastly, you could use a dome cover to protect your dome and camera from the 
 - a [servo motor](https://titanastro.com/store/SG90-Micro-Servo-p692218128)
 - some sort of dome cover
 
-We’ll discuss these components in more detail.
+We’ll discuss these components in [more detail here](/docs/components.md).
 
 <br/>
 <br/>
-<IMG SRC="https://i0.wp.com/titanastro.com/wp-content/uploads/2018/10/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
+<IMG SRC="/docs/images/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
 www.titanastro.com
