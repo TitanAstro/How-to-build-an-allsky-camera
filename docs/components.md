@@ -152,7 +152,7 @@ As with any mechanical moving system, our belt and pulley solution has backlash.
 
 ### Motor mount<a name="motormount"></a>
 
-<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-132041.jpg" style="zoom:25%;" />
+<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-132041.jpg" width="250" />
 
 For the stepper motor and bulley and pelt (ok, I know it's pulley and belt) system to correctly fit with the camera, some sort of motor mount is needed. This is actually pretty simple to make.
 
@@ -166,7 +166,7 @@ A servo motor is another type of positional actuator. Normally servo motors have
 
 A servo is perfect for a dome cover, in particular for the clamshell type dome covers. The below design is by Wichie Rivera.
 
-<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-121532.jpg" style="zoom:33%;" alt="Beautiful design by Wichie Rivera"/>
+<img src="https://titanastro.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-121532.jpg" width="250" alt="Beautiful design by Wichie Rivera"/>
 
 
 <br/>
