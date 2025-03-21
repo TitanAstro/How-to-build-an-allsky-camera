@@ -172,5 +172,5 @@ A servo is perfect for a dome cover, in particular for the clamshell type dome c
 *This guide is part of the How-to-build-an-allsky-camera project. For more information, visit our [main documentation](/).*
 <br/>
 <br/>
-<IMG SRC="docs/images/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
+<IMG SRC="/docs/images/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
 www.titanastro.com
