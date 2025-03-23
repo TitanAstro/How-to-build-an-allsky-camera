@@ -1,6 +1,0 @@
-* [Titan Astro Github](https://github.com/TitanAstro)
-  * [3D files](https://github.com/TitanAstro/3D-Resources)
-  * [SkyCamOne HAT documentation](https://github.com/TitanAstro/SkyCamOneHAT-Documentation)
-* [Titan Astro on Facebook](https://www.facebook.com/titanastrocom/)
-  * [Titan Astro Facebook Group](https://www.facebook.com/groups/titanastro)
-* [Allsky Camera Group](https://www.facebook.com/groups/172438633343696)

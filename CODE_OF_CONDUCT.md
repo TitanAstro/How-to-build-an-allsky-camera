@@ -34,3 +34,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 ---
 
 Thank you for helping us create a welcoming and collaborative community!
+<br/>
+<br/>
+<IMG SRC="/docs/images/Titan-Astro-color-logo-R-white-2025-1.png" Alt="Titan Astro S.L." width="100">
+www.titanastro.com
